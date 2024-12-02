@@ -1,5 +1,5 @@
 import numpy as np
-
+import math 
 # mylist = [1,2,3]
 #
 # print(mylist)
@@ -48,10 +48,32 @@ import numpy as np
 #
 # print('matrix row, colums',arr.shape) # obtener el número de filas y columnas de la matriz
 
-array_to_reshape = np.array([1,2,3,4,5,6,7,8,9,10,11,12])
+# array_to_reshape = np.array([1,2,3,4,5,6,7,8,9,10,11,12])
 
-print(array_to_reshape)
+# print(array_to_reshape)
 
-reshaped_array = array_to_reshape.reshape(4,3)
+# reshaped_array = array_to_reshape.reshape(4,3) # cambiar el número de filas y columnas
 
-print(reshaped_array)
+# print(reshaped_array)
+
+eye_array = np.eye(3)
+
+print(eye_array)
+
+print(np.random.rand(6)) # crear array con números randoms
+
+print(np.random.rand(3,3))
+
+matriz1 = np.array([[1,2,3],[4,5,6]])
+
+matriz2 = np.array([[7,8,9],[10,11,12]])
+
+matriz_sum = matriz1 + matriz2 # suma de matrizes
+
+print(matriz_sum)
+
+print(np.random.randint(1, 100, 10)) # obtener números aleatorios pasandole el inicio, fin y la cantidad de números
+
+arr = np.array(np.random.randint(1, 100, 10))
+
+print(arr)
