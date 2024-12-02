@@ -56,24 +56,34 @@ import math
 
 # print(reshaped_array)
 
-eye_array = np.eye(3)
+# eye_array = np.eye(3)
+#
+# print(eye_array)
+#
+# print(np.random.rand(6)) # crear array con números randoms
+#
+# print(np.random.rand(3,3))
+#
+# matriz1 = np.array([[1,2,3],[4,5,6]])
+#
+# matriz2 = np.array([[7,8,9],[10,11,12]])
+#
+# matriz_sum = matriz1 + matriz2 # suma de matrizes
+#
+# print(matriz_sum)
 
-print(eye_array)
+# print(np.random.randint(1, 100, 10)) # obtener números aleatorios pasandole el inicio, fin y la cantidad de números
 
-print(np.random.rand(6)) # crear array con números randoms
+arr = np.array(np.random.randint(1, 100, 10), dtype=int)
 
-print(np.random.rand(3,3))
+print('array con randInt:',arr)
 
-matriz1 = np.array([[1,2,3],[4,5,6]])
+print('valor máximo:',arr.max()) # obtener el valor máximo
 
-matriz2 = np.array([[7,8,9],[10,11,12]])
+print('valor mínimo:',arr.min()) # obtener el valor mínimo
 
-matriz_sum = matriz1 + matriz2 # suma de matrizes
+print('índice del valor máximo:',arr.argmax()) # obtener el indice del valor máximo
 
-print(matriz_sum)
+print('índice del valor mínimo',arr.argmin())
 
-print(np.random.randint(1, 100, 10)) # obtener números aleatorios pasandole el inicio, fin y la cantidad de números
-
-arr = np.array(np.random.randint(1, 100, 10))
-
-print(arr)
+print('data type:', arr.dtype)
