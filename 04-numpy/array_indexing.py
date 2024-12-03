@@ -17,3 +17,10 @@ print('copied array:', copied_array)
 matriz = np.array([[5,10,15], [20,25,30], [35,40,45]], dtype=int)
 
 print(matriz)
+
+print(matriz[0,1]) # otra manera de acceder a los valores de una matriz
+
+sliced_matriz = matriz[1:,:2] # obtener una sección de la matriz
+
+print(sliced_matriz)
+
