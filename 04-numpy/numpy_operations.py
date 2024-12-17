@@ -1,5 +1,10 @@
 import numpy as np
 
-arr = np.arange(10)
+arr1 = np.arange(10, 21)
 
-print(arr + 20)
+arr2 = np.arange(0, 11)
+
+sum = arr1 + arr2
+
+print(sum)
+
