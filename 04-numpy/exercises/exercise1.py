@@ -38,6 +38,10 @@ randomValues_array = np.random.randn(25) #generate an array of 25 random numbers
 
 print(randomValues_array)
 
-mat = np.arange(0.01, 1.01, 0.01).reshape((10,10))
+mat = np.arange(1, 101).reshape((10,10)) / 100
 
 print(mat)
+
+linspace = np.linspace(0.01,1, 100).reshape(10, 10)
+
+print(linspace)
