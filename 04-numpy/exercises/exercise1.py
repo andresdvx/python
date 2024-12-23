@@ -26,22 +26,22 @@ import numpy as np
 #
 # print(martrix)
 
-identity_matrix = np.eye(3) #create an 3x3 identity matrix
-
-print(identity_matrix)
-
-random_number = np.random.rand(1) #create a random number
-
-print(random_number)
-
-randomValues_array = np.random.randn(25) #generate an array of 25 random numbers
-
-print(randomValues_array)
-
-mat = np.arange(1, 101).reshape((10,10)) / 100
-
-print(mat)
-
-linspace = np.linspace(0.01,1, 100).reshape(10, 10)
-
-print(linspace)
+# identity_matrix = np.eye(3) #create an 3x3 identity matrix
+#
+# print(identity_matrix)
+#
+# random_number = np.random.rand(1) #create a random number
+#
+# print(random_number)
+#
+# randomValues_array = np.random.randn(25) * 100 #generate an array of 25 random numbers
+#
+# print('randn',randomValues_array)
+#
+# mat = np.arange(1, 101).reshape((10,10)) / 100
+#
+# print(mat)
+#
+# linspace = np.linspace(0.01,1, 100).reshape(10, 10)
+#
+# print(linspace)
